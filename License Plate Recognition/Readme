@@ -1,0 +1,3 @@
+A sensor based License Plate Recognition.
+As the car approaches with the help of sensor the camera turns on,detect the license plate and extract information out of it.
+Run main_main.py
