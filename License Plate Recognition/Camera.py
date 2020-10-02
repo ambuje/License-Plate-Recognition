@@ -44,8 +44,6 @@ while True:
     ##print("in loop")
     
     ret, frames = cap.read() 
-
-
     gray = cv2.cvtColor(frames, cv2.COLOR_BGR2GRAY) 
 
     cars = car_cascade.detectMultiScale(gray, 1.1, 1) 
@@ -72,7 +70,6 @@ while True:
         break
 
 cap.release()
-
 cv2.destroyAllWindows()
 
 import main_main
